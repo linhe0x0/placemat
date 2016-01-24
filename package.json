@@ -1,0 +1,40 @@
+{
+  "name": "placemat",
+  "version": "1.0.0",
+  "description": "Some pretty nice placeholder nouns for your site (people, places, and things), powered by https://placem.at/",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node ./bin/index.js things",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "placem": "bin/index.js"
+  },
+  "author": "sqrtthree <sqrtthree@foxmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "1.1.2",
+    "commander": "2.9.0",
+    "request": "2.67.0",
+    "update-notifier": "0.6.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "1.1.5"
+  },
+  "keywords": [
+    "placemat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrthree/placemat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sqrthree/placemat/issues"
+  },
+  "homepage": "https://github.com/sqrthree/placemat#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
