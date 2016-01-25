@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "placem": "bin/index.js"
+    "placemat": "bin/index.js"
   },
   "author": "sqrtthree <sqrtthree@foxmail.com>",
   "license": "ISC",
