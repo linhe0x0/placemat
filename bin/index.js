@@ -33,7 +33,7 @@ program
 	.option('-c, --textColor <color>', 'Change the displayed text color.')
 	.option('-C, --overlayColor <color>', 'Defines a custom overlay color.')
 	.option('-b, --overlayBlend <value>', 'Allows changing the overlay\'s blend mode.')
-    .option('-o, --output <FILE>', 'write documents to FILE.');
+    .option('-o, --output <FILE>', 'write image to FILE.');
 
 program.on('--help', function () {
     console.log('  Commands:');

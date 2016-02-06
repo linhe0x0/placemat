@@ -27,7 +27,7 @@ $ npm install -g placemat-node
     -c, --textColor <color>     Change the displayed text color.
     -C, --overlayColor <color>  Defines a custom overlay color.
     -b, --overlayBlend <value>  Allows changing the overlay's blend mode.
-    -o, --output <FILE>         write images to FILE.
+    -o, --output <FILE>         write image to FILE.
 
   Commands:
 
