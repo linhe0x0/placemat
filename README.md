@@ -40,34 +40,34 @@ $ npm install -g placemat-node
 
 ## Options
 
-### Width (w)
+#### Width (w)
   
   Specifies the width of the returned image. Can be used alone, or alongside h. A number in pixels.
 
-### Height (h)
+#### Height (h)
 
   Specifies the height of the returned image. Can be used alone, or alongside w. A number in pixels.
 
-### Random (r)
+#### Random (r)
 
   By default, Placemat will always return the same image for a given size. If you want to mix things up a bit, pass random=1. If you want to get the same "random" image every time, pass any other value for random, e.g. random=hello or random=2. This tends to be especially handy for the `people` endpoint.
 
-### Text (t)
+#### Text (t)
 
   Placemat will add your requested dimensions to the returned image by default, but you can bypass that by passing txt=0. If you want to display custom text, just send along something like txt=Hello+World!
 
-### Text Color (c)
+#### Text Color (c)
 
   Change the displayed text color. Accepts a 3 (RGB), 4 (ARGB), 6 (RRGGBB), or 8 digit (AARRGGBB) hexadecimal value. The first two digits of an 8 digit hex value represent the color's alpha transparency. Defaults to BFFF.
   
-### Overlay Color (C)
+#### Overlay Color (C)
 
   Defines a custom overlay color. Accepts a 3 (RGB), 6 (RRGGBB) or 8 digit (AARRGGBB) hexidecimal value. The first two digits of an 8 digit hex value represent the color's alpha transparency. Defaults to ACACAC.
 
-### Overlay Blend Mode (b)
+#### Overlay Blend Mode (b)
   Allows changing the overlay's blend mode. Defaults to multiply, and can be assigned to any of the imgix blend modes.
   
-### output (o)
+#### output (o)
   write images to FILE.
 
 Enjoy it.
