@@ -1,6 +1,6 @@
 {
   "name": "placemat-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some pretty nice placeholder nouns for your site (people, places, and things), powered by https://placem.at/",
   "main": "bin/index.js",
   "scripts": {
