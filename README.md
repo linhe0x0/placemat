@@ -12,7 +12,7 @@ $ npm install -g placemat-node
 ## Usage
 
 ```
-➜  ~  placemat --help
+➜ placemat --help
 
   Usage: placemat [options]
 
