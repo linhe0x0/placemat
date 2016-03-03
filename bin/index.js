@@ -24,6 +24,9 @@ let defaultKeys = {
     overlay_blend: 'overlayBlend'
 };
 
+/**
+ * CLI
+ */
 program
     .version(pkg.version)
 	.option('-w, --width <n>', 'Specifies the width of the returned image. Can be used alone, or alongside h. A number in pixels.')
@@ -51,7 +54,9 @@ program.parse(process.argv);
 
 updateNotifier({pkg}).notify();
 
-main();
+if (!module.parent) {
+    main();
+}
 
 function main() {
     let type = program.args[0];
@@ -97,11 +102,19 @@ function main() {
     }
 }
 
+/**
+ * showHelp.
+ */
 function showHelp() {
     process.stdout.write(program.helpInformation());
     program.emit('--help');
 }
 
+/**
+ * serialize options.
+ *
+ * @param {Object} options
+ */
 function serialize(options) {
     var obj = {};
 
@@ -120,6 +133,9 @@ function serialize(options) {
     return querystring.stringify(obj);
 }
 
+/**
+ * add file extension.
+ */
 function extension(filename, extensionName) {
     extensionName = extensionName || 'jpeg';
 
