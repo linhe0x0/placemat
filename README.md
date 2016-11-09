@@ -6,7 +6,7 @@ Some pretty nice placeholder nouns for your site (people, places, and things), p
 Using [npm](https://www.npmjs.com/):
 
 ```
-$ npm install -g placemat-node
+$ npm install -g placemat-cli
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm install -g placemat-node
 ```
 ➜ placemat --help
 
-  Usage: placemat [options]
+  Usage: placemat <command> [options]
 
   Options:
 
@@ -31,17 +31,22 @@ $ npm install -g placemat-node
 
   Commands:
 
-    people <option>
+    people [options]
 
-    places <option>
+    places [options]
 
-    things <option>
+    things [options] (default)
+
+  Examples:
+
+    $ placemat things -w 200
+    $ placemat things -w 200 -h 300
 ```
 
 ## Options
 
 #### Width (w)
-  
+
   Specifies the width of the returned image. Can be used alone, or alongside h. A number in pixels.
 
 #### Height (h)
@@ -59,15 +64,15 @@ $ npm install -g placemat-node
 #### Text Color (c)
 
   Change the displayed text color. Accepts a 3 (RGB), 4 (ARGB), 6 (RRGGBB), or 8 digit (AARRGGBB) hexadecimal value. The first two digits of an 8 digit hex value represent the color's alpha transparency. Defaults to BFFF.
-  
+
 #### Overlay Color (C)
 
   Defines a custom overlay color. Accepts a 3 (RGB), 6 (RRGGBB) or 8 digit (AARRGGBB) hexidecimal value. The first two digits of an 8 digit hex value represent the color's alpha transparency. Defaults to ACACAC.
 
 #### Overlay Blend Mode (b)
   Allows changing the overlay's blend mode. Defaults to multiply, and can be assigned to any of the imgix blend modes.
-  
+
 #### output (o)
   write images to FILE.
 
-Enjoy it.
+> Enjoy it.
