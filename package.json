@@ -1,6 +1,6 @@
 {
-  "name": "placemat-node",
-  "version": "1.0.1",
+  "name": "placemat-cli",
+  "version": "1.0.2",
   "description": "Some pretty nice placeholder nouns for your site (people, places, and things), powered by https://placem.at/",
   "main": "bin/index.js",
   "scripts": {
@@ -11,15 +11,15 @@
     "placemat": "bin/index.js"
   },
   "author": "sqrtthree <sqrtthree@foxmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "colors": "1.1.2",
     "commander": "2.9.0",
-    "request": "2.67.0",
-    "update-notifier": "0.6.0"
+    "request": "2.78.0",
+    "update-notifier": "1.0.2"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "1.1.5"
+    "cz-conventional-changelog": "1.2.0"
   },
   "keywords": [
     "placemat"
