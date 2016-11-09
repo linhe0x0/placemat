@@ -1,6 +1,6 @@
 {
   "name": "placemat-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Some pretty nice placeholder nouns for your site (people, places, and things), powered by https://placem.at/",
   "main": "bin/index.js",
   "scripts": {
