@@ -41,7 +41,7 @@ program.on('--help', function () {
   console.log('    $ placemat things -w 200');
   console.log('    $ placemat things -w 200 -h 300');
   console.log('');
-  process.exit();
+  process.exit(0);
 });
 
 program.parse(process.argv);
@@ -49,5 +49,5 @@ program.parse(process.argv);
 updateNotifier({pkg}).notify();
 
 if (!module.parent) {
-    main();
+  main();
 }
