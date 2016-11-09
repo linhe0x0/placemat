@@ -10,7 +10,7 @@ let colors = require('colors');
 let updateNotifier = require('update-notifier');
 
 let pkg = require('../package.json');
-let main = require('../libs/main');
+let main = require('../lib/main');
 
 /**
  * CLI
