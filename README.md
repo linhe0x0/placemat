@@ -41,6 +41,7 @@ $ npm install -g placemat-cli
 
     $ placemat things -w 200
     $ placemat things -w 200 -h 300
+    $ placemat things -w 200 -h 200 -o test.jpg
 ```
 
 ## Options

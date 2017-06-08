@@ -40,6 +40,7 @@ program.on('--help', function () {
   console.log('');
   console.log('    $ placemat things -w 200');
   console.log('    $ placemat things -w 200 -h 300');
+  console.log('    $ placemat things -w 200 -h 200 -o test.jpg');
   console.log('');
   process.exit(0);
 });
