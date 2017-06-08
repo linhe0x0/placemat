@@ -15,11 +15,11 @@
   "dependencies": {
     "colors": "1.1.2",
     "commander": "2.9.0",
-    "request": "2.78.0",
-    "update-notifier": "1.0.2"
+    "request": "2.81.0",
+    "update-notifier": "2.2.0"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "1.2.0"
+    "cz-conventional-changelog": "2.0.0"
   },
   "keywords": [
     "placemat"
